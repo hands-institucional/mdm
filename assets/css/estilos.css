@@ -3,6 +3,7 @@
 
 html{
   font-size: 14px;
+  background: #312683;
 }
 
 body{
@@ -16,6 +17,7 @@ body{
   max-width: 960px;
   padding: 20px 20px;
   margin: 0 auto;
+  
 }
 
 .menuScroll{
@@ -184,6 +186,7 @@ section.cards .container{
 
 section.cards{
   padding: unset;
+  background: white;
 }
 
 section.cards ul{
@@ -503,7 +506,7 @@ iframe{
   }
 
   .container{
-    margin: 10px 20px;
+    margin: 0px 20px;
     text-align: center;
     padding: unset;
   } 
@@ -564,7 +567,7 @@ iframe{
   }
 
   section.cards .wrapper-content{
-    bottom: -10px;
+    bottom: 0px;
     position: relative;
   }
 
