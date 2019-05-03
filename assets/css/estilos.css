@@ -506,10 +506,14 @@ iframe{
   }
 
   .container{
-    margin: 0px 20px;
+    margin: 10px 20px;
     text-align: center;
     padding: unset;
   } 
+  .cards .container{
+    margin: 0 20px;
+
+  }
 
   .hero .container{
     text-align: left;
