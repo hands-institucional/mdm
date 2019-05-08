@@ -15,5 +15,8 @@ $(window).scroll(function() {
         home ? $("#mdm-logo").attr("src","assets/img/mdm-logo.png")
             : $("#mdm-logo").attr("src","../assets/img/mdm-logo.png");
     }
+
 })
+
+
     
