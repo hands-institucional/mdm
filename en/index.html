@@ -16,21 +16,18 @@
 
 <body>
     <nav>
-        <ul id="language-selection">
-            <li><a href="/">PT</a></li>
-            <li><a href="/es">ES</a></li>
-            <li class="selected"><a href="/en">EN</a></li>
-        </ul>
+        
         <div class="container">
             <img id="mdm-logo" src="../assets/img/mdm-logo.png" alt="MDM - mobile data management">
             <ul>
                 <!-- <li >GeoBehavior</li> -->
                 <li onclick="document.querySelector('#insights').scrollIntoView({ behavior: 'smooth' })">Insights</li>
                 <li onclick="document.querySelector('#ativacao').scrollIntoView({ behavior: 'smooth' })">Activation</li>
-                <li onclick="document.querySelector('#metrics').scrollIntoView({ behavior: 'smooth' })">Metrics &
-                    Analytics</li>
-                <li onclick="document.querySelector('.form-wrapper').scrollIntoView({ behavior: 'smooth' })">Contact
-                </li>
+                <li onclick="document.querySelector('#metrics').scrollIntoView({ behavior: 'smooth' })">Metrics & Analytics</li>
+                <li onclick="document.querySelector('.form-wrapper').scrollIntoView({ behavior: 'smooth' })" id="contato1">Contact</li>
+                <li onclick="document.querySelector('#').scrollIntoView({ behavior: 'smooth' })"><a href="/" class="language-selection">PT</a></li>
+                <li onclick="document.querySelector('#').scrollIntoView({ behavior: 'smooth' })"><a href="/en" class="language-selection">EN</a></li>
+                <li onclick="document.querySelector('#').scrollIntoView({ behavior: 'smooth' })"><a href="/es" class="language-selection">ES</a></li>
             </ul>
         </div>
     </nav>
