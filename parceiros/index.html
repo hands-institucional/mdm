@@ -1,36 +1,33 @@
 <!DOCTYPE html>
-<html lang="es-es">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MDM by Hands</title>
-    <link rel="stylesheet" href="../assets/css/reset.css">
-    <link rel="stylesheet" href="../assets/css/estilos.css">
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon.ico">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon.ico">
     <meta name="theme-color" content="#42505F">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script rel="script" src="../assets/index.js"></script>
+    <script rel="script" src="assets/index.js"></script>
 </head>
 
 <body>
     <nav>
-        <ul id="language-selection">
-            <li><a href="/">PT</a></li>
-            <li><a href="/es">ES</a></li>
-            <li class="selected"><a href="/en">EN</a></li>
-        </ul>
+        
         <div class="container">
-            <img id="mdm-logo" src="../assets/img/mdm-logo.png" alt="MDM - mobile data management">
+            <img id="mdm-logo" src="assets/img/mdm-logo.png" alt="MDM - mobile data management">
             <ul>
                 <!-- <li >GeoBehavior</li> -->
                 <li onclick="document.querySelector('#insights').scrollIntoView({ behavior: 'smooth' })">Insights</li>
-                <li onclick="document.querySelector('#ativacao').scrollIntoView({ behavior: 'smooth' })">Activation</li>
+                <li onclick="document.querySelector('#ativacao').scrollIntoView({ behavior: 'smooth' })">Ativação</li>
                 <li onclick="document.querySelector('#metrics').scrollIntoView({ behavior: 'smooth' })">Metrics &
                     Analytics</li>
-                <li onclick="document.querySelector('.form-wrapper').scrollIntoView({ behavior: 'smooth' })">Contact
+                <li onclick="document.querySelector('.form-wrapper').scrollIntoView({ behavior: 'smooth' })">Contato
                 </li>
+
             </ul>
         </div>
     </nav>
@@ -38,18 +35,18 @@
         <section class="hero">
             <div class="container">
                 <div id="bg-animate">
-                    <img id="predios-bg" src="../assets/img/predios.png">
-                    <img id="astronauta-bg" src="../assets/img/persona.png">
+                    <img id="predios-bg" src="assets/img/predios.png">
+                    <img id="astronauta-bg" src="assets/img/persona.png">
                 </div>
                 <h1>MDM - mobile data management</h1>
                 <h2>Mobile Behavior</h2>
                 <p>
-                    Behavior profile analysis using
-                    the information available in smartphones.
+                    Transforme seus aplicativos em grandes players de Big Data fornecendo dados, análises e serviços em
+                    Mobile Behavior.
                 </p>
                 <button id="btn-hero"
-                    onclick="document.querySelector('.form-wrapper').scrollIntoView({ behavior: 'smooth' });">I am
-                    interested</button>
+                    onclick="document.querySelector('.form-wrapper').scrollIntoView({ behavior: 'smooth' });">Tenho
+                    interesse</button>
             </div>
         </section>
 
@@ -67,38 +64,35 @@
                         onclick="document.querySelector('#insights').scrollIntoView({ behavior: 'smooth' })">
                         <h3>Insights</h3>
                         <p>
-                            Information is enriched with various data on visited places,
-                            such as category, average ticket and events,
-                            thereby creating behavioral intelligence about users.
+                            Estratégia de monetização altamente escalável via Projetos de Estudos, Pesquisas e Insights.
+
                         </p>
                     </li>
                     <li id="card-ativacao"
                         onclick="document.querySelector('#ativacao').scrollIntoView({ behavior: 'smooth' })">
-                        <h3>Activation</h3>
+                        <h3>Ativação</h3>
                         <p>
-                            MDM’s data intelligence can also be used for media actions through GeoBehavior and GeoFence.
-                            <br>
-                            <span>Lorem ipsum dolor sit amet consectetur</span>
+                            Veicule nossas campanhas de mídia display e push notification segmentado. 
+                            
                         </p>
                     </li>
                     <li id="card-metrics"
                         onclick="document.querySelector('#metrics').scrollIntoView({ behavior: 'smooth' })">
                         <h3>Metrics & Analytics</h3>
                         <p>
-                            Use MDM’s intelligence to analyze and measure your campaign
-                            results as well as to understand the potential
-                            impacts of your target public’s change of behavior.
+                            Entenda o comportamento mobile de sua audiência
+                            e construa clusters de audiência comportamentais.
 
                         </p>
                     </li>
                 </ul>
                 <div class="wrapper-content">
-                    <img class="smartphonesImg" src="../assets/img/smartphones.png" alt="smartphones">
+                    <img class="smartphonesImg" src="assets/img/smartphones.png" alt="smartphones">
                     <p>
                         <strong> Mobile Data Management </strong> <br><br>
-                        We cross geographic information from groups of people with
-                        a number of information about visited places with the purpose
-                        of analyzing patterns and e defining behaviors.
+                        Em um mundo no qual os dados sócio-demográficos,
+                        isoladamente, não refletem mais o perfil das pessoas.
+                        Entender comportamento e atitudes se torna fundamental.
                     </p>
                 </div>
             </div>
@@ -108,13 +102,14 @@
             <div class="container">
 
                 <p class="txtTop">
-                    Gain access to MDM’s SaaS platform to analyze
-                    and activate mobile users based on anonymous
-                    information that are collected, treated, and enriched.
+                    Os smartphones são hoje o canal mais
+                    eficiente para capturar dados que identifiquem
+                    o comportamento dos usuários.
+
                 </p>
 
-                <img class="macImgUm" src="../assets/img/dash-1.png" alt="MDM Dashboard">
-                <img class="macImgDois" src="../assets/img/dash-2.png" alt="MDM Dashboard">
+                <img class="macImgUm" src="assets/img/dash-1.png" alt="MDM Dashboard">
+                <img class="macImgDois" src="assets/img/dash-2.png" alt="MDM Dashboard">
                 <!--
                 <h3>GeoBehavior</h3>
 
@@ -159,86 +154,112 @@
                 <div class="wrapper-content">
 
                     <div class="wrapper-img">
-                        <img src="../assets/img/in.svg" alt="Insights">
+                        <img src="assets/img/in.svg" alt="Insights">
                     </div>
 
                     <div class="wrapper-text">
+
+                        <p>
+                            Utilização dos dados enriquecidos pela MDM
+                            para a criação de estudos e insights para
+                            o mercado:
+
+                        </p>
 
                         <p class="pEspecial">
                             User Behavior
                         </p>
                         <p>
-                            Brands and Apps now can learn more about their users, by identifying behaviors, habits, and
-                            tendencies.
+                            Marcas e Apps já podem conhecer mais sobre seus usuários,
+                            identificando comportamentos, hábitos e tendências.
+
                         </p>
 
                         <p class="pEspecial">
-                            Competitors monitoring
+                            Monitoramento da concorrência
                         </p>
                         <p>
-                            Use geolocation data to identify and analyze clusters
-                            of users visiting competitors’ places.
+                            Utilização dos dados coletados para
+                            a criação de estudos e insights para o mercado.
+
                         </p>
 
                         <p class="pEspecial">
-                            Surveys
+                            Pesquisas
                         </p>
                         <p>
-                            Perform behavioral filters based on the data available for more direct and specific surveys.
+                            Faça filtros comportamentais baseados nos dados disponíveis para
+                            pesquisas mais diretas e específicas.
                         </p>
 
                         <p class="pEspecial">
-                            Urban mobility
+                            Mobilidade urbana
                         </p>
                         <p>
-                            Analyze people flow by OD (Origin/Destination), day of the week, time of the day, modal,
-                            home and business addresses.
+                            Análise do fluxo de pessoas por OD (Origem/Destino)
+                            , dia da semana, hora do dia, modal, local de moradia e trabalho.
+                        </p>
+
+                        <p class="pEspecial">
+                            Tracking
+                        </p>
+                        <p>
+                            Utilização dos dados de geolocalização para
+                            identificar e analisar clusters de usuários
+                            que frequentam locais de concorrentes.
+
+                        </p>
+
+                        <p class="pEspecial">
+                            Store Visits
+                        </p>
+                        <p>
+                            Análise do fluxo gerado em PDVs, compreenda quais visitas
+                            são novas ou recorrentes,
+                            compare com visitas à demais PDVs e concorrentes.
+
                         </p>
 
                     </div>
 
                 </div>
 
-                <h3 id="ativacao">Activation</h3>
+                <h3 id="ativacao">Ativação</h3>
 
                 <div class="wrapper-content">
 
                     <div class="wrapper-img">
-                        <img src="../assets/img/push.svg" alt="Push">
+                        <img src="assets/img/push.svg" alt="Push">
                     </div>
 
                     <div class="wrapper-text">
 
                         <p>
-                            Activations can be performed by using historical data that takes into consideration users’
-                            habits
-                            (GeoBehavior) or real-time (GeoFence) that activates users present in a given place, day,
-                            and time.
+                            Push notification segmentado de acordo
+                            com os clusters criados na MDM e mídia
+                            display focada em mobile experience.
+
                         </p>
 
                         <p class="pEspecial">Mobile Advertising</p>
                         <p>
-                            Owned network of premium applications for activation through unique, interactive formats: 
-                            <br> <br>
-                            - Display / Rich Media / Vídeo <br>
-                            - Native <br>
-                            - Push Notifications (Text, image, and image carrousel)
+                            Push com texto, com imagem e com carrossel
+                            de imagens permitem alto impacto aliado à segmentação comportamental.
                         </p>
 
                         <p class="pEspecial">
-                            Extended Audience
+                            Audiência Estendida
                         </p>
                         <p>
-                            MDM’s organized clusters that are available for activation
-                            through other channels. Our audience and intelligence – in your media plan.
+                            Display / Rich Media / Vídeo
                         </p>
 
                         <p class="pEspecial">
                             OOH Mobile
                         </p>
                         <p>
-                            Geolocated clusters crossed with <br>
-                            out-of-home media  point addresses in your media plan with complementary activations.
+                            Clusters geolocalizados cruzados com os endereços dos pontos de mídia <br>
+                            out-of-home do seu plano de mídia com ativações complementares.
                         </p>
 
                     </div>
@@ -250,20 +271,34 @@
                 <div class="wrapper-content">
 
                     <div class="wrapper-img">
-                        <img src="../assets/img/metrics.svg" alt="Metrics & Analytics">
+                        <img src="assets/img/metrics.svg" alt="Metrics & Analytics">
                     </div>
 
                     <div class="wrapper-text">
 
-                        <p class="pEspecial">Store visits</p>
                         <p>
-                            Analyze the flow generated in PoSs, sort out which visits are new or recurrent, compare with
-                            visits to the other PoSs and competitors.
+                            Acesso ao Dashboard MDM e Estudos de BI,
+                            auxiliando os donos de APP’s no entendimento
+                            da sua base com informações como:
+
+
                         </p>
 
-                        <p class="pEspecial">Campaign monitoring</p>
+                        <p class="pEspecial">Store visits</p>
                         <p>
-                            Understand the behavior changes for groups of users impacted by the campaign.
+                            - Oriegem e destino<br>
+                            - Dados sensitários<br>
+                            - Lugares que frequentam<br>
+                            - Apps que utilizam<br>
+                            - Apps de concorrentes<br>
+                            Etc.<br>
+
+                        </p>
+
+                        <p class="pEspecial">Monitoramento de Campanha</p>
+                        <p>
+                            Compreenda mudanças de comportamento de grupos
+                            de usuários impactados pela campanha.
                         </p>
 
                     </div>
@@ -273,24 +308,25 @@
         </section>
 
         <section class="contact">
-            <h4>Contact us to receive more information</h4>
+            <h4>Entre em contato para receber mais informações</h4>
             <div class="form-wrapper">
-                <div role="main" id="lp-mdm-ingles-b6d0d3e3269dda592d04"></div>
+                <div role="main" id="lp-mdm-eb502269a1c8ae178d97"></div>
                 <script type="text/javascript"
                     src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></script>
                 <script type="text/javascript">
-                    new RDStationForms('lp-mdm-ingles-b6d0d3e3269dda592d04-html', 'UA-99304459-1').createForm();
+                    new RDStationForms('lp-mdm-eb502269a1c8ae178d97-html', 'UA-99304459-1').createForm();
                 </script>
             </div>
         </section>
+
     </main>
 
     <footer>
-        <a href="https://hands.com.br/"><img src="../assets/img/hands-logo.png" alt="By Hands"></a>
-        <p> <strong>Data privacy:</strong> </p>
+        <a href="https://hands.com.br/"><img src="assets/img/hands-logo.png" alt="By Hands"></a>
+        <p> <strong>Privacidade de dados:</strong> </p>
         <p>
-            Hands is in compliance with the good data collection practices as well as the General Data Protection
-            Regulation and GDPR.
+            A Hands está em compliance com as boas práticas de coleta de informação,
+            bem como a Lei Geral de Proteção de Dados e GDPR.
         </p>
     </footer>
     <!-- Global site tag (gtag.js) - Google Analytics -->

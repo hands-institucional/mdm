@@ -2,7 +2,7 @@ $(window).scroll(function() {
 
     var top=$(window).scrollTop();
     var home = window.location.pathname === "/" || window.location.pathname === "/mdm/"
-
+   
     if(top > 40){
         $("#language-selection").addClass("menuScroll");
         $("nav").addClass("menuScroll");

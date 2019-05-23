@@ -46,15 +46,9 @@ nav{
   transition: height .6s;
 }
 
-#language-selection {
-  position: relative;
-  top: 0;
-  width: 150px;
-  height: 50px;
-  float: initial;
-  margin: auto;
-  text-align: center;
-  transition: opacity .3s, height .6s;
+.language-selection {
+  text-decoration: none; 
+  color:#D5D8E8;
 
 }
 
@@ -103,7 +97,7 @@ nav ul li{
   font-size: 14px;	
   line-height: 29px;
   cursor: pointer;
-  margin-left: 10%;
+  margin-left: 5%;
 }
 
 .hero{
