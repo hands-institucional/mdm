@@ -11,13 +11,27 @@ body{
   margin: 0 auto;
 }
 
+#seta{
+
+  background: url("../img/arrow-down-sign-to-navigate.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: middle;
+    height: 10px;
+    width: 30%; 
+
+
+}
+
+
 .container{
   position: relative;
   height: 100%;
   max-width: 960px;
   padding: 20px 20px;
   margin: 0 auto;
-  
+    
 }
 
 .menuScroll{
@@ -98,7 +112,41 @@ nav ul li{
   line-height: 29px;
   cursor: pointer;
   margin-left: 5%;
+  display: inline-block;
+  vertical-align: top;
 }
+
+#caixa-p{
+width: 110%;
+
+}
+
+
+#primeiro{
+  display: inline-block;
+  background: #312683;
+
+}
+
+
+#segundo{
+  display: none;
+  background: #312683;
+
+}
+
+#terceiro{
+  display: none;
+ background: #312683;
+
+}
+
+#menu{
+  text-align: center;;
+  width: 30px; 
+  
+}
+
 
 .hero{
   padding-top: 150px;
