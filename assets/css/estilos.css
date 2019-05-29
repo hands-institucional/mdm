@@ -142,7 +142,7 @@ width: 110%;
 }
 
 #menu{
-  text-align: center;;
+  text-align: center;
   width: 30px; 
   
 }
@@ -515,10 +515,13 @@ iframe{
     display: none;
   }
 
-  #contato1{
+  
+  #menu{
     display: block;
+   
     position: absolute;
     right: 0;
+
   }
 
   #language-selection{
