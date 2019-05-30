@@ -3,7 +3,7 @@
 
 html{
   font-size: 14px;
-  background: #42505F;
+  background: #344855;
 }
 
 body{
@@ -55,7 +55,7 @@ nav{
   width: 100%;
   font-size: 14px;
   height: 180px;
-  background-color: #42505F;
+  background-color: #344855;
   z-index: 999;
   transition: height .6s;
 }
@@ -124,20 +124,20 @@ width: 110%;
 
 #primeiro{
   display: inline-block;
-  background: #42505F;
+  background: #344855;
 
 }
 
 
 #segundo{
   display: none;
-  background: #42505F;
+  background: #344855;
 
 }
 
 #terceiro{
   display: none;
- background: #42505F;
+ background: #344855;
 
 }
 
@@ -150,7 +150,7 @@ width: 110%;
 
 .hero{
   padding-top: 150px;
-  background-color: #42505F;
+  background-color: #344855;
   color: #D5D8E8;
   height: 580px;
   border-bottom: 2px solid #C8D400;
@@ -422,7 +422,7 @@ section.more-infos .wrapper-text{
   display: inline-block;
   width: 59%;
   padding-left: 10%;
-  border-left: 2px solid #9DA6B0;
+  border-left: 2px solid #344855;
 }
 
 section.more-infos .wrapper-text p{
@@ -432,7 +432,7 @@ section.more-infos .wrapper-text p{
 section.contact{
   padding: unset;
   padding-top: 40px;
-  background-color: #42505F;
+  background-color: #344855;
 }
 
 .form-wrapper{
