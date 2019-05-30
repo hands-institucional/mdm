@@ -199,7 +199,7 @@ width: 110%;
 #btn-hero{
   z-index: 99;
   position: absolute;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 button{
@@ -364,6 +364,7 @@ section.more-infos .txtTop {
   
   margin-top: 18%;
     font-size: 1.3em;
+    text-align: left;
 }
 
 section.more-infos > h3 > p:first-child{
@@ -484,6 +485,12 @@ iframe{
   height: 100%;
 }
 
+
+#macImgDois2{
+  padding-right: 5%;
+}
+
+
 @media (max-width: 949px){
   html{
     font-size: 14px;
@@ -499,6 +506,13 @@ iframe{
     font-size: 15px;
     line-height: 23px;
     margin-top: 15px;
+  }
+
+#txtTop2{
+  
+  margin-top: 18%;
+    font-size: 1em;
+  padding-left: 0;
   }
 
   .menuScroll img{
@@ -655,7 +669,7 @@ iframe{
   section.more-infos .macImgDois{
     float: left;
     margin-bottom: 60px;
-    width: 47%
+    width: 47%;
   }
 
   section.more-infos h3 {
