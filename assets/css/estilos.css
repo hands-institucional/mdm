@@ -347,7 +347,7 @@ section.more-infos .macImgUm{
 }
 
 section.more-infos .macImgDois{
-  float: right;
+  float: left;
   margin-bottom: 80px;
 }
 
@@ -358,6 +358,12 @@ section.more-infos .txtTop {
   line-height: 26px;	
   text-align: center;
   margin-bottom: 80px;
+}
+
+#txtTop2{
+  
+  margin-top: 18%;
+    font-size: 1.3em;
 }
 
 section.more-infos > h3 > p:first-child{
@@ -380,6 +386,7 @@ section.more-infos h3{
   line-height: 36px;
   padding: 50px;
   margin-left: 15%;
+ 
 }
 
 section.more-infos .wrapper-content{
@@ -646,7 +653,7 @@ iframe{
   }
 
   section.more-infos .macImgDois{
-    float: right;
+    float: left;
     margin-bottom: 60px;
     width: 47%
   }
