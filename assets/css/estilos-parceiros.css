@@ -288,7 +288,7 @@ section.cards li h3{
 
 #card-insights h3::before{
   content: "";
-  background-image: url('../img/icon-insights.png');
+  background-image: url('../img-parceiros/icon-insights.png');
   background-repeat: no-repeat;
   display: block;
   height: 86px;
@@ -303,7 +303,7 @@ section.cards li h3{
 
 #card-ativacao h3::before{
   content: "";
-  background-image: url('../img/icon-push.png');
+  background-image: url('../img-parceiros/icon-push.png');
   background-repeat: no-repeat;
   display: block;
   height: 86px;
@@ -314,7 +314,7 @@ section.cards li h3{
 
 #card-metrics h3::before{
   content: "";
-  background-image: url('../img/icon-metrics.svg');
+  background-image: url('../img-parceiros/icon-metrics.svg');
   background-repeat: no-repeat;
   display: block;
   height: 86px;
